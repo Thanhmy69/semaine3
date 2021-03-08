@@ -1,0 +1,110 @@
+#bloc_page{
+    width: 1080px;
+    margin:auto;
+
+}
+header a{
+    text-decoration: none;
+    color:white;
+    padding-left:10px;
+}
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+nav ul li {
+padding-top: 15px;
+}
+
+ul{
+    display:flex;
+    justify-content: row;
+    text-decoration: none;
+    color:white;
+
+
+}
+li{
+    display: flex;
+    padding-right:10px;
+    list-style-type: none;
+    height: 35px;
+}
+
+ul li{
+    display: inline-block;
+}
+ul li:hover{
+    background-color: grey;
+}
+
+#banniere{
+    background: url(Assets/cafe2.jpeg) center ;
+    background-size: 1080px 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+#banniere #Titre_banniere{
+    color: white;
+    margin: auto;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 500px;
+}
+
+#banniere #Titre_banniere p{
+    font-size: 0.5em;
+}
+h1{
+    font-size:2em;
+}
+#banniere #Titre_banniere a{
+    background: white;
+    color:black;
+    width:100px;
+    border-radius: 50px;
+    margin: auto;
+    text-decoration: none;
+
+}
+#cafe img{
+    width: 30px;
+}
+#cafe2 img{
+    width:30px
+}
+
+#temps{
+    display: flex;
+    justify-content: space-around;
+    height: 250px;
+    align-items: center;
+}
+
+#cafe {
+    text-align: center;
+    font-size: 0.8em;
+    width: 400px;
+}
+
+#cafe2{
+    text-align: center;
+    font-size: 0.8em;
+    width: 400px;
+}
+#deuxieme{
+    background:url(assets/cafe.jpeg) center;
+    background-size: 1080px 200px;
+    background-size: cover;
+    height: 300px;
+
+}
+

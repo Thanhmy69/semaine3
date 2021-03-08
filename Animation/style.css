@@ -1,0 +1,44 @@
+#un {
+    width: auto;
+    height: 40px;
+    background-color: #F5BD8E;
+    animation-name: example;
+    animation-duration: 4s;
+    text-align:center;
+}
+
+@keyframes example {
+    from {background-color:#F5BD8E;}
+    to {background-color: #8EF5C0;}
+}
+
+#test {
+        width: 200px;
+        height: 200px;
+        background: url(assets/beignets-fourres-a-la-confiture.jpg)center;
+        transition: width 2s, height 4s;
+}
+#test:hover {
+        width: 500px;
+        height: 500px;
+    }
+#test2{
+        width: 200px;
+        height: 200px;
+        background:url(assets/donuts_americains-970x1024.jpg.webp)center;
+        transition: width 2s, height 2s, transform 2s;
+}
+
+#test2:hover {
+        width: 500px;
+        height: 500px;
+        transform: rotate(360deg);
+}
+#deux{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+p{
+    font-style: oblique;
+}

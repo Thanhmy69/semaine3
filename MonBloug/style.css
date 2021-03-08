@@ -1,0 +1,32 @@
+h1{
+    background-color: #46BDC6;
+    color:#FFFF;
+}
+
+
+div{
+    background-color: #F5F5EC;
+    margin-left:20px;
+    margin-right: 20px;
+
+}
+
+.espace{
+    color:#CB6B10;
+    padding-top: 25px;
+    padding-left: 19px;
+}
+
+h2{
+    font-size:1.2em;
+    text-decoration: #CB6B10 underline;
+    margin-left: 10px;
+}
+
+p{
+margin-left:20px
+}
+
+span{
+    color:#46BDC6;
+}
